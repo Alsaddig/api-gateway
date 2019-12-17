@@ -31,7 +31,7 @@ var app = express();
  * 
 */
 
-var mongoDB = 'mongodb+srv://admin:admin@api-gateway-1piyt.mongodb.net/test?retryWrites=true&w=majority)';
+var mongoDB = 'mongodb+srv://alsaddig:admin@api-gateway-ox66e.mongodb.net/test?retryWrites=true&w=majority';
 mongoose.connect(mongoDB, {
   useUnifiedTopology: true, useNewUrlParser: true, promiseLibrary: require('bluebird')
 }).then(() => console.log('connection successful'))
